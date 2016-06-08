@@ -3,7 +3,7 @@
 
   <include name="base.xml"/>
 
-  <default revision="b2g/ics_strawberry"
+  <default revision="b2g/lollipop_FS4"
            remote="caf"
            sync-j="4" />
 
@@ -17,7 +17,7 @@
 
   <!-- Stock Android things -->
   <project path="abi/cpp" name="platform/abi/cpp" />
-  <project path="bionic" name="platform_bionic" remote="b2g" revision="b2g_ics_strawberry"/>
+  <project path="bionic" name="platform_bionic" remote="b2g" revision="b2g_lollipop_FS4"/>
   <project path="bootable/recovery" name="platform/bootable/recovery" revision="b2g_ics_1.2" />
   <project path="development" name="platform/development" revision="b2g_ics_1.2" />
   <project path="device/common" name="device/common" />
@@ -62,7 +62,7 @@
   <project path="external/sqlite" name="platform/external/sqlite" revision="fb30e613139b8836fdc8e81e166cf3a76e5fa17f"/>
   <project path="external/stlport" name="platform/external/stlport" />
   <project path="external/strace" name="platform/external/strace" />
-  <project path="external/svox" name="platform/external/svox" revision="ics_strawberry" />
+  <project path="external/svox" name="platform/external/svox" revision="lollipop_FS4" />
   <project path="external/tagsoup" name="platform/external/tagsoup" />
   <project path="external/tinyalsa" name="platform/external/tinyalsa" />
   <project path="external/tremolo" name="platform/external/tremolo" />
